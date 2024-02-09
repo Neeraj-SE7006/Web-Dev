@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+form{
+    box-shadow: 0px 0px 10px 10px gray;
+    width : 350px;
+    height : 350px;
+    margin : 10px;
+    padding-left: 10px;
+    margin-left: 550px;
+    margin-top: 50px;
+}
+input{
+  width:300px;
+  height: 30px;  
+}
+button{
+    width: 150px;
+    height: 30px;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+.main{
+    width: 1320px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    position: relative;
+}
+.items{
+    flex-basis: 23%;
+    margin: 1%;
+    box-shadow: 0px 0px 10px 2px #ccc;
+    padding: 1%;
+    position: relative;
+}
+.items span{
+    font-size: 30px;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    cursor: pointer;
+}
